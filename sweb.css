@@ -1,0 +1,144 @@
+*{padding : 0 ; margin : 0; box-sizing: border-box;font-family: sans-serif;}
+
+/*
+font-family: "Dancing Script", cursive;
+*/
+
+.nav1{
+    width :100%;
+    height: 70px;
+    color: white;
+    background: #222f3e;
+    display:flex ;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1 i{
+     margin: 0 15px;
+}
+.nav1 a{
+    text-decoration: none;
+    color: white ;
+    padding : 10px 10px ;
+    background: #e67e22;
+}
+.nav2 {
+
+width :100%;
+height: 85px;
+background: rgb(227, 224, 235);
+color: black;
+display: flex;
+justify-content: space-between;
+align-items:center;
+padding: 0 40px ;
+
+}
+
+.menu a {
+    margin-top: 0;
+    text-decoration: none;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    color: black;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.menu a:hover {
+    border-bottom: 3px solid black;
+}
+.menu a {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+
+header
+{
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.7) 80%, #e67e22), url('https://sageuniversity.edu.in/assets/why-sage/SAGE-university-bhopal-open-theater.webp');
+    background-size: 100% 100% ;
+}
+
+.htext {
+    max-width: 600px;
+    color: white ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+
+
+}
+
+.htext h1{
+    font-size: 3em;
+    font-family: 'Dancing Script', cursive;
+
+}
+.htext span{
+    color: #e67e22;
+    font-family:' Dancing Script', cursive;
+}
+.htext p {
+    font-size: 20px;
+    margin:  40px 0 ;
+    line-height: 30px ;
+}
+.htext a {
+    text-decoration: none ;
+    color: white ;
+    background: #e67e22 ;
+    padding : 10px 20px ; 
+    margin : 0 15px ;
+    letter-spacing:  5px; 
+}
+/* footer */
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    background: gray;
+    text-decoration: none;
+}
+
+.footer ul {
+    margin-top: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.footer ul li a {
+    color: black;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease;
+}
+
+.footer ul li a:hover {
+    border-bottom: 3px solid black;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.footer .copyright {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+
+}
